@@ -5,9 +5,10 @@
     margin: 0;
     padding: 0;
     background-color: #ffebcc;
+    font-family: "Monsterrat", sans-serif;
 }
 
-li, a {
+li, a, div, .box, .member {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -63,4 +64,116 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169 0.8);
+}
+
+
+
+/* Login/Signup Page */
+
+.wrapper {
+    width: 330 px;
+    padding: 2rem 2rem;
+    margin: 40px 50px;
+    background-color: #fcd7a0;
+    border-radius: 10 px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+}
+
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.signup_login {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(51, 142, 118);
+}
+
+input:focus {
+    border: 1px solid rbga(192, 192, 192);
+}
+
+.terms {
+    margin-top: 0.2rem;
+}
+
+.terms input {
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.terms label{
+    font-size: 0.7rem;
+}
+
+.terms a{
+    color: rgb(51, 142, 118);
+    text-decoration: none;
+}
+
+.member {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    background-color: #fcd7a0;
+    color: #636363;
+}
+
+.member a{
+    color: rgb(51, 142, 118);
+    text-decoration: none;
+}
+
+.recover {
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+
+.recover a{
+    text-decoration: none;
+    color: #464647;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(51, 142, 118);
+    background-color: #fcd7a0;
+    text-decoration: none;  
+}
+
+.logob {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 0;
+    width: 10%;
+}
+
+.info {
+    background-color: #fcd7a0;
 }
